@@ -1,13 +1,13 @@
-#Tidy Data Project Code Book
+# Tidy Data Project Code Book #
 
-##Subject
+## Subject ##
 
 	Anonymous label denoting an individual subject
-##Activity
+## Activity ##
 
 	Descriptive label denoting the activity performed by the subject, against which each variable has 
 been measured
-##Variables
+## Variables ##
 
 	Mean values calculated for each combination of subject and activity. X, Y and Z denote the geometric axis of 
 measurement. For a more detailed description of each variable, please see features_info.txt in the data folder
