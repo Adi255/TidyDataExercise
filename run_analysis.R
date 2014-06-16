@@ -25,7 +25,9 @@ testDir <- "test"
 trainDir <- "train"
 
 #Find features describing useful measurements
-usefulFeatures <- featureFrame[grepl("(mean\\(\\)|std\\(\\))",features[,2]),]
+usefulFeatures <- featureFrame[grepl("(mean\\(\\)|std\\(\\))",featureFrame[,2]),]
+#Remove brackets from variable names
+usefulFeatures[,2] <- gsub("\\(\\)","",usefulFeatures[,2])
 
 readDataSet <- function(set){
   #Read the training data and extract the mean/std fields
@@ -42,6 +44,7 @@ readDataSet <- function(set){
   colNo <- ncol(data)
   #Replace activity label with written description
   data[,colNo] <- classLabels[data[,colNo],2]
+  
   colnames(data) <- c(as.character(usefulFeatures[,2]),"Subject","Activity")
   data
 }
