@@ -17,82 +17,69 @@ measurement. In general, these variables represent signals from onboard gyroscop
 a more detailed description of each variable, please see features_info.txt in the data folder.  Units for each 
 measurement are dimensionless as they are scaled.
 
-- tBodyAcc-mean-X
-- tBodyAcc-mean-Y
-- tBodyAcc-mean-Z
-- tBodyAcc-std-X
-- tBodyAcc-std-Y
-- tBodyAcc-std-Z
-- tGravityAcc-mean-X
-- tGravityAcc-mean-Y
-- tGravityAcc-mean-Z
-- tGravityAcc-std-X
-- tGravityAcc-std-Y
-- tGravityAcc-std-Z
-- tBodyAccJerk-mean-X
-- tBodyAccJerk-mean-Y
-- tBodyAccJerk-mean-Z
-- tBodyAccJerk-std-X
-- tBodyAccJerk-std-Y
-- tBodyAccJerk-std-Z
-- tBodyGyro-mean-X
-- tBodyGyro-mean-Y
-- tBodyGyro-mean-Z
-- tBodyGyro-std-X
-- tBodyGyro-std-Y
-- tBodyGyro-std-Z
-- tBodyGyroJerk-mean-X
-- tBodyGyroJerk-mean-Y
-- tBodyGyroJerk-mean-Z
-- tBodyGyroJerk-std-X
-- tBodyGyroJerk-std-Y
-- tBodyGyroJerk-std-Z
-- tBodyAccMag-mean
-- tBodyAccMag-std
-- tGravityAccMag-mean
-- tGravityAccMag-std
-- tBodyAccJerkMag-mean
-- tBodyAccJerkMag-std
-- tBodyGyroMag-mean
-- tBodyGyroMag-std
-- tBodyGyroJerkMag-mean
-- tBodyGyroJerkMag-std
-- fBodyAcc-mean-X
-- fBodyAcc-mean-Y
-- fBodyAcc-mean-Z
-- fBodyAcc-std-X
-- fBodyAcc-std-Y
-- fBodyAcc-std-Z
-- fBodyAccJerk-mean-X
-- fBodyAccJerk-mean-Y
-- fBodyAccJerk-mean-Z
-- fBodyAccJerk-std-X
-- fBodyAccJerk-std-Y
-- fBodyAccJerk-std-Z
-- fBodyGyro-mean-X
-- fBodyGyro-mean-Y
-- fBodyGyro-mean-Z
-- fBodyGyro-std-X
-- fBodyGyro-std-Y
-- fBodyGyro-std-Z
-- fBodyAccMag-mean
-- fBodyAccMag-std
-- fBodyBodyAccJerkMag-mean
-- fBodyBodyAccJerkMag-std
-- fBodyBodyGyroMag-mean
-- fBodyBodyGyroMag-std
-- fBodyBodyGyroJerkMag-mean
-- fBodyBodyGyroJerkMag-std
-
-
-
-
-
-
-
-
-
-
-
-
-
+- mean tBodyAcc-mean-X
+- mean tBodyAcc-mean-Y
+- mean tBodyAcc-mean-Z
+- mean tBodyAcc-std-X
+- mean tBodyAcc-std-Y
+- mean tBodyAcc-std-Z
+- mean tGravityAcc-mean-X
+- mean tGravityAcc-mean-Y
+- mean tGravityAcc-mean-Z
+- mean tGravityAcc-std-X
+- mean tGravityAcc-std-Y
+- mean tGravityAcc-std-Z
+- mean tBodyAccJerk-mean-X
+- mean tBodyAccJerk-mean-Y
+- mean tBodyAccJerk-mean-Z
+- mean tBodyAccJerk-std-X
+- mean tBodyAccJerk-std-Y
+- mean tBodyAccJerk-std-Z
+- mean tBodyGyro-mean-X
+- mean tBodyGyro-mean-Y
+- mean tBodyGyro-mean-Z
+- mean tBodyGyro-std-X
+- mean tBodyGyro-std-Y
+- mean tBodyGyro-std-Z
+- mean tBodyGyroJerk-mean-X
+- mean tBodyGyroJerk-mean-Y
+- mean tBodyGyroJerk-mean-Z
+- mean tBodyGyroJerk-std-X
+- mean tBodyGyroJerk-std-Y
+- mean tBodyGyroJerk-std-Z
+- mean tBodyAccMag-mean
+- mean tBodyAccMag-std
+- mean tGravityAccMag-mean
+- mean tGravityAccMag-std
+- mean tBodyAccJerkMag-mean
+- mean tBodyAccJerkMag-std
+- mean tBodyGyroMag-mean
+- mean tBodyGyroMag-std
+- mean tBodyGyroJerkMag-mean
+- mean tBodyGyroJerkMag-std
+- mean fBodyAcc-mean-X
+- mean fBodyAcc-mean-Y
+- mean fBodyAcc-mean-Z
+- mean fBodyAcc-std-X
+- mean fBodyAcc-std-Y
+- mean fBodyAcc-std-Z
+- mean fBodyAccJerk-mean-X
+- mean fBodyAccJerk-mean-Y
+- mean fBodyAccJerk-mean-Z
+- mean fBodyAccJerk-std-X
+- mean fBodyAccJerk-std-Y
+- mean fBodyAccJerk-std-Z
+- mean fBodyGyro-mean-X
+- mean fBodyGyro-mean-Y
+- mean fBodyGyro-mean-Z
+- mean fBodyGyro-std-X
+- mean fBodyGyro-std-Y
+- mean fBodyGyro-std-Z
+- mean fBodyAccMag-mean
+- mean fBodyAccMag-std
+- mean fBodyBodyAccJerkMag-mean
+- mean fBodyBodyAccJerkMag-std
+- mean fBodyBodyGyroMag-mean
+- mean fBodyBodyGyroMag-std
+- mean fBodyBodyGyroJerkMag-mean
+- mean fBodyBodyGyroJerkMag-std
