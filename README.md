@@ -11,8 +11,4 @@ The script has a single argument (with default value) to define the archived (.z
 Codebook
 --------
 
-The Codebook.md file describes a data set constructed from the output of the run_analysis.R script; the following steps were followed to create it -
-* The 'melt' function from the reshape2 library is used to group the data set by distinct combinations of subject and activity.
-* The 'dcast' function from the same library then performs an aggegration over the resulting data set; the mean value of each feature is calculated for each pair of subject and activity
-* The resulting data frame consists of 180 rows (30 subjects and 6 activities) wwith a mean value for 66 variables (i.e. a total of 68 columns)
-* The data set is written to file with the write.table function
+The Codebook.md file describes a data set constructed from the output of the run_analysis.R script. The steps to generate this data are described within it.
