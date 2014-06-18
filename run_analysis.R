@@ -39,13 +39,12 @@ readDataSet <- function(set){
   activity <- read.table(paste(dataDir,"/",set,"/Y_",set,".txt", sep=""), colClasses="numeric")
   
   #Comibine them all
-  data <- cbind(data,subjects[,1], activity[,1])
-  
-  colNo <- ncol(data)
+  data <- cbind(subjects[,1], activity[,1], data)
+
   #Replace activity label with written description
-  data[,colNo] <- classLabels[data[,colNo],2]
+  data[,2] <- classLabels[data[,2],2]
   
-  colnames(data) <- c(as.character(usefulFeatures[,2]),"Subject","Activity")
+  colnames(data) <- c("Subject","Activity", as.character(usefulFeatures[,2]))
   data
 }
 
